@@ -3,6 +3,6 @@
 Usage:
 
 ```
-bach learn midis/ models/model.json
-bach compose models/model.json out -f wav,mp3 -l 2.5
+bach learn dir/to/midis/ dir/to/learned-model
+bach compose dir/to/learned-model out --format wav,mp3 --minutes 2.5
 ```
